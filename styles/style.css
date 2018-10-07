@@ -120,17 +120,18 @@ h3 {
 	border-bottom: solid 1px #979899;
 	display: flex;
 	flex-direction: row;
+	min-height: 130px;
 }
 
-.summary-heading {
-	padding: 20px 0;
+.summary-heading, .skills-heading {
+	padding: 20px 10px 0 0;
 	width: 30%;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-end;
 }
 
-.summary-text {
+.summary-text, .skills-text {
 	padding: 20px 0 20px 75px;
 	width: 70%;
 	background: #202020;
