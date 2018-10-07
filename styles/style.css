@@ -116,14 +116,14 @@ h3 {
 	color: #a4a5a6;
 }
 
-.block-summary, .block-skills {
+.block-summary, .block-skills, .block-profiles, .block-language, .block-education {
 	border-bottom: solid 1px #979899;
 	display: flex;
 	flex-direction: row;
 	min-height: 130px;
 }
 
-.summary-heading, .skills-heading {
+.summary-heading, .skills-heading, .profiles-heading, .language-heading, .education-heading {
 	padding: 20px 10px 0 0;
 	width: 30%;
 	display: flex;
@@ -131,7 +131,7 @@ h3 {
 	align-items: flex-end;
 }
 
-.summary-text, .skills-text {
+.summary-text, .skills-text, .profiles-text, .language-text, .education-text {
 	padding: 20px 0 20px 75px;
 	width: 70%;
 	background: #202020;
